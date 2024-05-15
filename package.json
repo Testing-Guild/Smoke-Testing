@@ -1,0 +1,36 @@
+{
+  "name": "smoke-testing",
+  "version": "1.0.0",
+  "description": "A smoke test is a quick check to see if new software is basically functional. It's like a smoke alarm - it doesn't guarantee everything's fine, but it catches major issues early.",
+  "main": "",
+  "directories": {
+    "test": "test",
+    "example": "src"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Testing-Guild/Smoke-Testing.git"
+  },
+  "keywords": [
+    "smoke",
+    "smoke-testing",
+    "smoke-test"
+  ],
+  "bugs": {
+    "url": "https://github.com/Testing-Guild/Smoke-Testing/issues"
+  },
+  "homepage": "https://github.com/Testing-Guild/Smoke-Testing#readme",
+  "author": "Mahdi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.7",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
